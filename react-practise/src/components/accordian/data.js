@@ -1,28 +1,28 @@
 const data = [
-  {
-    id:'1',
-    title: "What is an Accordion Component?",
-    content: "An accordion component allows users to expand and collapse sections of related content, making it easier to browse through information without overwhelming the user."
-  },
-  {
-    id:'2',
-    title: "When should I use an Accordion?",
-    content: "Use an accordion when you want to present information in a compact space and give users control over which sections they want to read or hide, like FAQs or menus."
-  },
-  {
-    id:'3',
-    title: "How does an Accordion improve UX?",
-    content: "It improves UX by reducing clutter on the page, providing a clean interface where users can focus only on the parts they are interested in."
-  },
-  {
-    id:'4',
-    title: "Can Accordions be nested?",
-    content: "Yes, accordions can be nested, but it’s advisable to use this feature sparingly to avoid confusing users with too many expandable layers."
-  },
-  {
-    id:'5',
-    title: "Are Accordions accessible?",
-    content: "Accordions can be accessible if implemented with proper semantic HTML and ARIA attributes to ensure keyboard and screen reader compatibility."
-  }
-];
-export default data;
+    {
+      id  : '1',
+      question: "What are accordion components?",
+      answer:
+        "Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
+    },
+    {
+      id  : '2',
+      question: "What are they used for?",
+      answer:
+        "They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options.",
+    },
+    {
+      id  : '3',
+      question: "Accordion as a musical instrument",
+      answer:
+        "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
+    },
+    {
+      id  : '4',
+      question: "Can I create an accordion component with a different framework?",
+      answer:
+        "Yes of course, it is very possible to create an accordion component with another framework.",
+    },
+  ];
+
+  export default data;
